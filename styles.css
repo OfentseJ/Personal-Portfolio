@@ -249,6 +249,15 @@ h1{
     padding-bottom: 12px;
 }
 
+.download-btn{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.download-btn:hover{
+    color: var(--text-color2);
+}
+
 footer{
     width: 100%;
     text-align: center;
