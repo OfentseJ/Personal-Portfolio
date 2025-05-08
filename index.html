@@ -1,111 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./styles.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header id="navbar">
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certification">Certification</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="welcome-section">
-            <div id="weather-info">
-                <p>Fetching your location and weather...</p>
-              </div>
-            <h1>Hey😁👋, <span>I'm Ofentse Makhutja.</span></h1>
-            <p class="sub-title">Aspiring Web & Software developer</p>
-            <img src="images/IMG_0851.JPEG" alt="a picture of Ofentse" class="my-pic">
-        </section>
-        <section id="about">
-            <h1>About</h1>
-            <p class="description">
-                I am a dedicated and enthusiastic programmer seeking a practical opportunity to apply my knowledge of programming and problem-solving in a professional setting. With proficiency in Java and a strong willingness to learn emerging technologies, I am particularly drawn to the fields of web and software development. I am committed to making meaningful contributions to projects, collaborating with experienced professionals, and continuously advancing my technical and professional skills in a dynamic work environment.
+      <section id="welcome-section">
+        <div id="weather-info">
+          <p>Fetching your location and weather...</p>
+        </div>
+        <h1>Hey😁👋, <span>I'm Ofentse Makhutja.</span></h1>
+        <p class="sub-title">Web & Software developer</p>
+        <img
+          src="images/IMG_0851.JPEG"
+          alt="a picture of Ofentse"
+          class="my-pic"
+        />
+      </section>
+      <section id="about">
+        <h1>About</h1>
+        <p class="description">
+          I am a dedicated and enthusiastic programmer seeking a practical
+          opportunity to apply my knowledge of programming and problem-solving
+          in a professional setting. With proficiency in Java and a strong
+          willingness to learn emerging technologies, I am particularly drawn to
+          the fields of web and software development. I am committed to making
+          meaningful contributions to projects, collaborating with experienced
+          professionals, and continuously advancing my technical and
+          professional skills in a dynamic work environment.
+        </p>
+        <div class="container">
+          <div class="list">
+            <h3>Tech Stack</h3>
+            <ul class="lang-skills">
+              <li>Java</li>
+              <li>Python</li>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>SQL*PLUS</li>
+              <li>PL/SQL</li>
+            </ul>
+          </div>
+          <div class="list">
+            <h3>Soft Skills</h3>
+            <ul class="soft-skills">
+              <li>Time management</li>
+              <li>Interpersonal</li>
+              <li>Good Communication</li>
+              <li>Teamwork</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <h1>Education</h1>
+        <div class="education-container">
+          <div class="education-tile">
+            <h3 class="degree">Diploma in Computer Science</h3>
+            <p class="school">Tshwane University of Technology</p>
+            <p class="year">2022 - 2025</p>
+            <p class="current">Currently Studying</p>
+          </div>
+          <div class="education-tile">
+            <h3 class="degree">National Senior Certificate</h3>
+            <p class="school">Allanridge Secondary School</p>
+            <p class="year">2017 - 2021</p>
+          </div>
+        </div>
+      </section>
+      <section id="certification">
+        <h1>Certifications</h1>
+        <div class="certification-container">
+          <div class="certification-tile">
+            <h3 class="cert-name">Microsoft</h3>
+            <ul class="cert-list">
+              <li>AZ-900</li>
+              <li>DP-900</li>
+            </ul>
+            <h3 class="cert-name">freeCodeCamp</h3>
+            <ul class="cert-list">
+              <li>Responsive Web Design</li>
+              <li>JavaScript Algorithms and Data Structures</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="project-container">
+          <div class="project-tile">
+            <h3 class="project-name">Pokemon Search App</h3>
+            <p class="project-desc">
+              Web application used to search pokemon. Built using html, css, and
+              Javascript.
             </p>
-            <div class="container">
-                <div class="list">
-                    <h3>Tech Stack</h3>
-                    <ul class="lang-skills">
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Html</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>SQL*PLUS</li>
-                        <li>PL/SQL</li>
-                    </ul>
-                </div>
-                <div class="list">
-                    <h3>Soft Skills</h3>
-                    <ul class="soft-skills">
-                        <li>Time management </li>
-                        <li>Interpersonal</li>
-                        <li>Good Communication</li>
-                        <li>Teamwork</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="projects">
-            <h1>Projects</h1>
-            <div class="project-container">
-                <div class="project-tile">
-                    <h3 class="project-name">Pokemon Search App</h3>
-                    <p class="project-desc">Web application used to search pokemon. Built using html, css, and Javascript.</p>
-                    <a href="https://github.com/OfentseJ/pokemon-search-app.git" target="_blank">Click here to view</a>
-                </div>
-                <div class="project-tile">
-                    <h3 class="project-name">Roman number converter</h3>
-                    <p class="project-desc">Converts Arabic numbers to Roman numerals. Built using html, css, and Javascript.</p>
-                    <a href="https://github.com/OfentseJ/roman-number-converter.git" target="_blank">Click here to view</a>
-                </div>
-                <div class="project-tile">
-                    <h3 class="project-name">Technical Documentation</h3>
-                    <p class="project-desc">Python API Documentation. Built using html and css.</p>
-                    <a href="https://github.com/OfentseJ/technical-documentation.git" target="_blank">Click here to view</a>
-                </div>
-                <div class="project-tile">
-                    <h3 class="project-name">Product Landing Page</h3>
-                    <p class="project-desc">Product Landing Page that offers hosting services. Built using html and css.</p>
-                    <a href="https://github.com/OfentseJ/product-landing-page.git" target="_blank">Click here to view</a>
-                </div>
-                <div class="project-tile">
-                    <h3 class="project-name">Thiftville</h3>
-                    <p class="project-desc">E-commerce store. Bulit using django, html and css.</p>
-                    <a href="https://github.com/OfentseJ/Thriftville.git" target="_blank">Click here to view</a>
-                </div>
-            </div>
-        </section>
-        <section id="contacts">
-            <h1>Contacts</h1>
-            <div class="contacts-container">
-                <h2>Want to work together?</h2>
-                <p>Contact Me:</p>
-                <div class="contact-links">
-                    <a href="mailto:ofentsemakhutja@icloud.com" target="_blank" id="profile-link"><i class="ri-mail-line"></i> ofentsemakhutja@icloud.com</a>
-                    <a href="https://www.linkedin.com/in/ofentse-makhutja-13b4112a2/" target="_blank" id="profile-link"><i class="ri-linkedin-fill"></i> LinkedIn</a>
-                    <a href="https://github.com/OfentseJ" target="_blank" id="profile-link"><i class="ri-github-fill"></i> github</a>
-                    <a href="tel:061 446 7573" target="_blank" id="profile-link"><i class="ri-phone-fill"></i> 061 446 7573</a>
-                    <a href="./docs/CV - Ofentse Makhutja - Midrand.pdf" download class="download-btn">📄 Download CV</a>
-                </div>
-            </div>     
-        </section>
+            <a
+              href="https://github.com/OfentseJ/pokemon-search-app.git"
+              target="_blank"
+              >Click here to view</a
+            >
+          </div>
+          <div class="project-tile">
+            <h3 class="project-name">Roman number converter</h3>
+            <p class="project-desc">
+              Converts Arabic numbers to Roman numerals. Built using html, css,
+              and Javascript.
+            </p>
+            <a
+              href="https://github.com/OfentseJ/roman-number-converter.git"
+              target="_blank"
+              >Click here to view</a
+            >
+          </div>
+          <div class="project-tile">
+            <h3 class="project-name">Technical Documentation</h3>
+            <p class="project-desc">
+              Python API Documentation. Built using html and css.
+            </p>
+            <a
+              href="https://github.com/OfentseJ/technical-documentation.git"
+              target="_blank"
+              >Click here to view</a
+            >
+          </div>
+          <div class="project-tile">
+            <h3 class="project-name">Product Landing Page</h3>
+            <p class="project-desc">
+              Product Landing Page that offers hosting services. Built using
+              html and css.
+            </p>
+            <a
+              href="https://github.com/OfentseJ/product-landing-page.git"
+              target="_blank"
+              >Click here to view</a
+            >
+          </div>
+          <div class="project-tile">
+            <h3 class="project-name">Thiftville</h3>
+            <p class="project-desc">
+              E-commerce store. Bulit using django, html and css.
+            </p>
+            <a
+              href="https://github.com/OfentseJ/Thriftville.git"
+              target="_blank"
+              >Click here to view</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="contacts">
+        <h1>Contacts</h1>
+        <div class="contacts-container">
+          <h2>Want to work together?</h2>
+          <p>Contact Me:</p>
+          <div class="contact-links">
+            <a
+              href="mailto:ofentsemakhutja@icloud.com"
+              target="_blank"
+              id="profile-link"
+              ><i class="ri-mail-line"></i> ofentsemakhutja@icloud.com</a
+            >
+            <a
+              href="https://www.linkedin.com/in/ofentse-makhutja-13b4112a2/"
+              target="_blank"
+              id="profile-link"
+              ><i class="ri-linkedin-fill"></i> LinkedIn</a
+            >
+            <a
+              href="https://github.com/OfentseJ"
+              target="_blank"
+              id="profile-link"
+              ><i class="ri-github-fill"></i> github</a
+            >
+            <a href="tel:061 446 7573" target="_blank" id="profile-link"
+              ><i class="ri-phone-fill"></i> 061 446 7573</a
+            >
+            <a
+              href="./docs/CV - Ofentse Makhutja - Midrand.pdf"
+              download
+              class="download-btn"
+              >📄 Download CV</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <p><i class="ri-copyright-line"></i>2025 Ofentse Makhutja. All rights reserved</p>
+      <p>
+        <i class="ri-copyright-line"></i>2025 Ofentse Makhutja. All rights
+        reserved
+      </p>
     </footer>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
