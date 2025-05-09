@@ -75,7 +75,8 @@ ul > li > a:hover{
 /* main section styles */
 
 main{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #welcome-section{
@@ -170,12 +171,11 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     gap: 8px;
     max-width: 1400px;
     margin-top: 36px;
-    margin: 0 auto;
 }
 
 .education-tile {
@@ -202,7 +202,7 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     gap: 8px;
     max-width: 1400px;
     margin-top: 36px;
@@ -217,7 +217,7 @@ h1{
 }
 
 .certification-tile {
-    width: 300px;
+    width: 80%;
     margin-right: 20px;
     padding-left: 10px;
     background-color: #2b2a2a;
@@ -251,7 +251,7 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     gap: 8px;
     max-width: 1400px;
@@ -299,7 +299,6 @@ h1{
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid var(--text-color2);
 }
 
 .contacts-container{
@@ -342,5 +341,6 @@ footer{
     width: 100%;
     text-align: center;
     position: absolute;
+    border-top: 2px solid var(--text-color2);
 }
 
