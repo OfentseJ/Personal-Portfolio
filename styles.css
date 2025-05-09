@@ -120,6 +120,7 @@ h1{
 
 #about h1{
     padding-top: 44px;
+    margin-bottom: 24px;
     color: var(--text-color2);
 }
 
@@ -162,6 +163,7 @@ h1{
     color: var(--text-color2);
     padding-top: 44px;
     padding-left: 100px;
+    margin-bottom: 24px;
 }
 
 .education-container {
@@ -174,7 +176,7 @@ h1{
     gap: 8px;
     max-width: 1400px;
     margin-top: 36px;
-    margin-left: 80px;
+    margin: 0 auto;
 }
 
 .education-tile {
@@ -205,13 +207,14 @@ h1{
     gap: 8px;
     max-width: 1400px;
     margin-top: 36px;
-    margin-left: 80px;
+    margin: 0 auto;
 }
 
 #certification h1 {
     color: var(--text-color2);
     padding-top: 44px;
     padding-left: 100px;
+    margin-bottom: 24px;
 }
 
 .certification-tile {
@@ -241,6 +244,7 @@ h1{
     color: var(--text-color2);
     padding-top: 44px;
     padding-left: 100px;
+    margin-bottom: 24px;
 }
 
 .project-container{
@@ -253,7 +257,7 @@ h1{
     gap: 8px;
     max-width: 1400px;
     margin-top: 36px;
-    margin-left: 80px;
+    margin: 0 auto;
 }
 
 .project-tile{
@@ -312,6 +316,7 @@ h1{
     color: var(--text-color2);
     padding-top: 44px;
     padding-left: 100px;
+    margin-bottom: 24px;
 }
 
 .contact-links{
