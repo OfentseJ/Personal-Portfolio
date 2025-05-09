@@ -120,7 +120,6 @@ h1{
 
 #about h1{
     padding-top: 44px;
-    margin-bottom: 24px;
     color: var(--text-color2);
 }
 
@@ -163,7 +162,7 @@ h1{
     color: var(--text-color2);
     padding-top: 44px;
     padding-left: 100px;
-    margin-bottom: 24px;
+    margin-bottom: 44px;
 }
 
 .education-container {
@@ -214,7 +213,7 @@ h1{
     color: var(--text-color2);
     padding-top: 44px;
     padding-left: 100px;
-    margin-bottom: 24px;
+    margin-bottom: 44px;
 }
 
 .certification-tile {
@@ -244,7 +243,7 @@ h1{
     color: var(--text-color2);
     padding-top: 44px;
     padding-left: 100px;
-    margin-bottom: 24px;
+    margin-bottom: 44px;
 }
 
 .project-container{
