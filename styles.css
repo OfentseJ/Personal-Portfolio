@@ -56,14 +56,6 @@ nav > ul > li{
     margin: 5px 30px;
 }
 
-nav li:first-child{
-    margin-right: auto;
-}
-
-.logo {
-    font-size: x-large;
-}
-
 ul{
     list-style: none;    
 }
