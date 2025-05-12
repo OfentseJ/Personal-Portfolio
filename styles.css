@@ -17,6 +17,7 @@
 }
 
 body{
+    min-height: 100vh;
     width: 100%;
     margin: 0;
     font-family: "Asap", sans-serif;;
@@ -53,9 +54,16 @@ nav ul{
 
 nav > ul > li{
     margin: 5px 30px;
-
 }
 
+nav li:first-child{
+    margin-right: auto;
+}
+
+.logo {
+    color: var(--text-color2);
+    font-size: x-large;
+}
 
 ul{
     list-style: none;    
@@ -69,8 +77,44 @@ ul > li > a:hover{
     color: var(--text-color2);
 }
 
+.menu-btn{
+    display: none;
+}
 
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    margin: 0;
+}
 
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+}
 
 /* main section styles */
 

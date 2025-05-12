@@ -19,12 +19,22 @@
   <body>
     <header id="navbar">
       <nav>
+        <ul class="sidebar">
+          <li onclick="hideSideBar()"><i class="ri-close-large-line"></i></li>
+          <li onclick="hideSideBar()"><a href="#about">About</a></li>
+          <li onclick="hideSideBar()"><a href="#education">Education</a></li>
+          <li onclick="hideSideBar()"><a href="#certification">Certification</a></li>
+          <li onclick="hideSideBar()"><a href="#projects">Projects</a></li>
+          <li onclick="hideSideBar()"><a href="#contacts">Contacts</a></li>
+        </ul>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#certification">Certification</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="index.html" class="logo">Ofentse</a></li>
+          <li class="hideOnMobile"><a href="#about">About</a></li>
+          <li class="hideOnMobile"><a href="#education">Education</a></li>
+          <li class="hideOnMobile"><a href="#certification">Certification</a></li>
+          <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+          <li class="hideOnMobile"><a href="#contacts">Contacts</a></li>
+          <li class="menu-btn" onclick="showSideBar()"><a href="#"><i class="ri-menu-fill"></i></a></li>
         </ul>
       </nav>
     </header>
