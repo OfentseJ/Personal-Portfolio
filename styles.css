@@ -156,7 +156,6 @@ h1{
 #about{
     padding: 0 100px;
     width: 100%;
-    height: 100vh;
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
@@ -194,6 +193,23 @@ h1{
     list-style: circle;
     font-weight: 600;
 }
+
+.skills-container{
+    width: 100%;
+    gap: 8px;
+    max-width: 1400px;
+    margin-top: 36px;
+}
+
+.skills-tile{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
 /* education section styles */
 
 #education {
@@ -223,7 +239,7 @@ h1{
 }
 
 .education-tile {
-    width: 400px;
+    width: 300px;
     height: 256px;
     margin-right: 20px;
     padding-left: 10px;
