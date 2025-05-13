@@ -38,6 +38,7 @@ body{
     margin: 0;
     background-color: var(--background-color);
     font-weight: 700;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav{
@@ -111,7 +112,7 @@ ul > li > a:hover{
 /* main section styles */
 
 main{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     background-color: var(--background-color);
 }

@@ -64,3 +64,15 @@ function hideSideBar(){
   const sideBar = document.querySelector('.sidebar')
   sideBar.style.display = 'none'
 }
+
+const sendBtn = document.getElementById("send");
+sendBtn.addEventListener("click",()=>{
+
+  const nameInput = document.getElementById("name");
+  const emailInput = document.getElementById("email");
+  const messageTextArea = document.getElementById("message");
+
+  nameInput.value = "";
+  emailInput.value = "";
+  messageTextArea.value = "";
+});
