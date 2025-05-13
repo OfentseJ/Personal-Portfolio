@@ -52,32 +52,39 @@
       </section>
       <section id="about">
         <h1>About</h1>
-        <p class="description">
-          I am a dedicated and enthusiastic programmer seeking a practical
-          opportunity to apply my knowledge of programming and problem-solving
-          in a professional setting. With proficiency in Java and a strong
-          willingness to learn emerging technologies, I am particularly drawn to
-          the fields of web and software development. I am committed to making
-          meaningful contributions to projects, collaborating with experienced
-          professionals, and continuously advancing my technical and
-          professional skills in a dynamic work environment.
-        </p>
+        <div class="card">
+          <p class="description">
+            I am a dedicated and enthusiastic programmer seeking a practical
+            opportunity to apply my knowledge of programming and problem-solving
+            in a professional setting. With proficiency in Java and a strong
+            willingness to learn emerging technologies, I am particularly drawn to
+            the fields of web and software development. I am committed to making
+            meaningful contributions to projects, collaborating with experienced
+            professionals, and continuously advancing my technical and
+            professional skills in a dynamic work environment.
+          </p>
+        </div>
         <div class="skills-container">
           <div class="skills-tile">
-            <div class="tech-stack">
-              <h3 class="cert-name">Tech Stack</h3>
+            <div class="backend">
+              <h3>Frontend</h3>
               <ul class="cert-list">
-                <li>Java</li>
-                <li>Python</li>
-                <li>Html</li>
+                <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>SQL*PLUS</li>
-                <li>PL/SQL</li>
+                <li>React</li>
               </ul>
-            </div>
-            <div class="skills">
-              <h3 class="cert-name">Soft Skills</h3>
+           </div>
+           <div class="frontend">
+              <h3>Backend</h3>
+                <ul class="cert-list">
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>PL/SQL</li>
+                </ul>
+           </div>
+           <div class="soft-skills">
+              <h3>Soft Skills</h3>
               <ul class="cert-list">
                 <li>Time management</li>
                 <li>Interpersonal</li>
@@ -193,6 +200,13 @@
       <section id="contacts">
         <h1>Contacts</h1>
         <div class="contacts-container">
+          <h2>Send me a Message</h2>
+          <form class="form" action="https://formspree.io/f/xpwdowzd" method="POST">
+            <input type="text" name="name" placeholder="Your name" required />
+            <input type="email" name="email" placeholder="Your email" required />
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
           <h2>Want to work together?</h2>
           <p>Contact Me:</p>
           <div class="contact-links">
