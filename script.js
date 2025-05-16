@@ -47,9 +47,7 @@ function hideSideBar(){
   sideBar.style.display = 'none'
 }
 
-const sendBtn = document.getElementById("send");
-sendBtn.addEventListener("click",()=>{
-
+function clear(){
   const nameInput = document.getElementById("name");
   const emailInput = document.getElementById("email");
   const messageTextArea = document.getElementById("message");
@@ -57,4 +55,4 @@ sendBtn.addEventListener("click",()=>{
   nameInput.value = "";
   emailInput.value = "";
   messageTextArea.value = "";
-});
+}
