@@ -23,17 +23,23 @@
           <li onclick="hideSideBar()"><i class="ri-close-large-line"></i></li>
           <li onclick="hideSideBar()"><a href="#about">About</a></li>
           <li onclick="hideSideBar()"><a href="#education">Education</a></li>
-          <li onclick="hideSideBar()"><a href="#certification">Certification</a></li>
+          <li onclick="hideSideBar()">
+            <a href="#certification">Certification</a>
+          </li>
           <li onclick="hideSideBar()"><a href="#projects">Projects</a></li>
           <li onclick="hideSideBar()"><a href="#contacts">Contacts</a></li>
         </ul>
         <ul>
           <li class="hideOnMobile"><a href="#about">About</a></li>
           <li class="hideOnMobile"><a href="#education">Education</a></li>
-          <li class="hideOnMobile"><a href="#certification">Certification</a></li>
+          <li class="hideOnMobile">
+            <a href="#certification">Certification</a>
+          </li>
           <li class="hideOnMobile"><a href="#projects">Projects</a></li>
           <li class="hideOnMobile"><a href="#contacts">Contacts</a></li>
-          <li class="menu-btn" onclick="showSideBar()"><i class="ri-menu-fill"></i></li>
+          <li class="menu-btn" onclick="showSideBar()">
+            <i class="ri-menu-fill"></i>
+          </li>
         </ul>
       </nav>
     </header>
@@ -57,11 +63,11 @@
             I am a dedicated and enthusiastic programmer seeking a practical
             opportunity to apply my knowledge of programming and problem-solving
             in a professional setting. With proficiency in Java and a strong
-            willingness to learn emerging technologies, I am particularly drawn to
-            the fields of web and software development. I am committed to making
-            meaningful contributions to projects, collaborating with experienced
-            professionals, and continuously advancing my technical and
-            professional skills in a dynamic work environment.
+            willingness to learn emerging technologies, I am particularly drawn
+            to the fields of web and software development. I am committed to
+            making meaningful contributions to projects, collaborating with
+            experienced professionals, and continuously advancing my technical
+            and professional skills in a dynamic work environment.
           </p>
         </div>
         <div class="skills-container">
@@ -76,13 +82,13 @@
           </div>
           <div class="frontend">
             <h3>Backend</h3>
-              <ul class="cert-list">
-                <li>Java</li>
-                <li>Python</li>
-                <li>PL/SQL</li>
-                <li>Django</li>
-                <li>express js</li>
-              </ul>
+            <ul class="cert-list">
+              <li>Java</li>
+              <li>Python</li>
+              <li>PL/SQL</li>
+              <li>Django</li>
+              <li>express js</li>
+            </ul>
           </div>
           <div class="soft-skills">
             <h3>Soft Skills</h3>
@@ -107,6 +113,7 @@
           <div class="education-tile">
             <h3 class="degree">National Senior Certificate</h3>
             <p class="school">Allanridge Secondary School</p>
+            <p class="school">Math, Physical Sci, Life Sci, Geo, Eng, Afr </p>
             <p class="year">2017 - 2021</p>
           </div>
           <div class="education-tile">
@@ -201,10 +208,31 @@
         <h1>Contacts</h1>
         <div class="contacts-container">
           <h2>Send me a Message</h2>
-          <form class="form" action="https://formspree.io/f/xpwdowzd" method="POST">
-            <input type="text" name="name" id="name" placeholder="Your name" required />
-            <input type="email" name="email" id="email" placeholder="Your email" required />
-            <textarea name="message" id="message" placeholder="Your message" required></textarea>
+          <form
+            class="form"
+            action="https://formspree.io/f/xpwdowzd"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Your message"
+              required
+            ></textarea>
             <button onclick="clear()" type="submit">Send Message</button>
           </form>
           <h2>Want to work together?</h2>
