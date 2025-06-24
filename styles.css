@@ -185,6 +185,9 @@ h1{
 .soft-skills h3{
     color:  var(--text-color2);
 }
+.database h3{
+    color:  var(--text-color2);
+}
 
 .list{
     margin: 44px;
