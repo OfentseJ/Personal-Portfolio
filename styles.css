@@ -311,17 +311,18 @@ h1{
     margin-bottom: 44px;
 }
 
-.project-container{
-    width: 100%;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(3, auto);
-    gap: 8px;
-    max-width: 1400px;
-    margin-top: 36px;
-    margin: 0 auto;
-}
+.project-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        max-width: 1400px;
+        margin-top: 36px;
+        margin: 0 auto;
+    }
 
 .project-tile{
     width: 220px;
