@@ -312,7 +312,7 @@ h1{
 }
 
 .project-container {
-        width: 100%;
+        width: 75%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
