@@ -313,11 +313,10 @@ h1{
 
 .project-container{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: center;
     align-items: center;
+    grid-template-columns: repeat(3, auto);
     gap: 8px;
     max-width: 1400px;
     margin-top: 36px;
@@ -354,6 +353,9 @@ h1{
 #projects > p{
     margin-top:40px;
     padding-left: 120px;
+}
+a:hover{
+    color: var(--first-color);
 }
 
 /* Contact section styles */
